@@ -6,7 +6,7 @@
 
 import _ from 'lodash';
 import chrome from 'ui/chrome';
-import { EmbeddableFactory } from 'ui/embeddable';
+import { EmbeddableFactory } from '../../../../../src/legacy/core_plugins/embeddable_api/public';
 import { MapEmbeddable } from './map_embeddable';
 import { indexPatternService } from '../kibana_services';
 import { i18n } from '@kbn/i18n';

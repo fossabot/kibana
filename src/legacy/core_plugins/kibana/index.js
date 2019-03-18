@@ -17,6 +17,7 @@
  * under the License.
  */
 
+console.log('in kibana');
 import Promise from 'bluebird';
 import { mkdirp as mkdirpNode } from 'mkdirp';
 import { resolve } from 'path';
@@ -48,6 +49,7 @@ export default function (kibana) {
   const kbnBaseUrl = '/app/kibana';
   return new kibana.Plugin({
     id: 'kibana',
+    require: ['embeddable_api'],
     config: function (Joi) {
       return Joi.object({
         enabled: Joi.boolean().default(true),
