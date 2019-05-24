@@ -1,4 +1,6 @@
 # Kibana
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fgcmurphy%2Fkibana.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fgcmurphy%2Fkibana?ref=badge_shield)
+
 
 Kibana is your window into the [Elastic Stack](https://www.elastic.co/products). Specifically, it's a browser-based analytics and search dashboard for Elasticsearch.
 
@@ -64,3 +66,7 @@ _Note: The version numbers below are only examples, meant to illustrate the rela
 Please check to make sure someone else hasn't already created an issue for the same topic.
 - Need help using Kibana? Ask away on our [Kibana Discuss Forum](https://discuss.elastic.co/c/kibana) and a fellow community member or
 Elastic engineer will be glad to help you out.
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fgcmurphy%2Fkibana.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fgcmurphy%2Fkibana?ref=badge_large)
